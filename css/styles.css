@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+} 
+body {
+    margin: 0;
+    padding: 0;
+}
+
+  
+ .palms{
+    padding: 60px;
+ 
+  
+ }
+      
+ 
+
+.line-1 {
+  height: 12px;
+  width: 18%;
+  background: #ffff00;
+}
+.centero {
+ margin: 50% auto;
+ 
+}
+.absme{
+    position: relative;
+    margin: 0;
+    padding: 0;
+   
+    height: 100%;
+  width: 100%;
+
+}
+.kf{
+    position: absolute;
+    width: 100%;
+    height: 20vw;
+    background-color: #ffff00;
+    top: 0px;
+}
+.kfe{
+    position: absolute;
+    width: 100%;
+  
+    background-color: #a6a6a6;
+    top: 220px;
+}
+.kfer{
+    position: absolute;
+   
+    width: 80%;
+ 
+    background-color: white;
+    border: 0px solid red;
+top: 100px;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+ padding: 30px;
+ text-align: justify;
+  text-justify: inter-word;
+}
+ul.a {
+  list-style-type: circle;
+}   
+
+
+   
+    
+  /*###Desktops, big landscape tablets and laptops(Large, Extra large)####*/
+@media screen and (min-width: 1024px){
+/*Style*/
+
+.grid-containerdd {
+  display: grid;
+  grid-template-columns:  50% 50%;
+  gap: 0%;
+  
+ height: 900px;
+}
+.imager {
+ 
+  
+background:  url("../images/bobmarley.jpeg") no-repeat;
+  
+  background-size: cover;
+  
+}
+
+ 
+
+
+
+
+}
+
+/*###Tablet(medium)###*/
+@media screen and (min-width : 768px) and (max-width : 1023px){
+/*Style*/
+
+  .grid-containerdd {
+  display: grid;
+  grid-template-rows:  25% 75%;
+  gap: 0%;
+  
+
+}
+.imager {
+ 
+  
+background:  url("../images/bobmarley.jpeg") no-repeat;
+  
+  background-size: cover;
+  
+}
+.palms{
+    padding: 40px;
+ 
+  box-sizing: border-box; 
+ }
+
+.centeros {
+margin-top: -100px;
+ 
+}
+.kfer{
+  width: 100%;
+ padding: 30px;
+ 
+}
+
+
+      
+}
+
+
+
+
+
+
+
+
+/*### Smartphones (portrait and landscape)(small)### */
+@media screen and (min-width : 0px) and (max-width : 767px){
+/*Style*/
+
+   .grid-containerdd {
+  display: grid;
+  grid-template-rows:  25% 75%;
+  gap: 0%;
+  
+
+}
+.imager {
+ 
+  
+background:  url("../images/bobmarley.jpeg") no-repeat;
+  
+  background-size: cover;
+  
+}
+.palms{
+    padding: 40px;
+ 
+  box-sizing: border-box; 
+ }
+
+.centeros {
+margin-top: -100px;
+ 
+}
+.kfer{
+  width: 100%;
+ padding: 30px;
+ 
+}
+
+} 
